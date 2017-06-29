@@ -3,7 +3,7 @@ A custom driver for Perch CMS to run properly in the Laravel Valet development e
 
 Perch CMS seems to run fine in Laravel Valet, except that Perch can't validate your license on a Valet domain. This driver fixes that by setting `$_SERVER['SERVER_NAME']` correctly.
 
-To install add this file to the '/Users/_your-user-name_/.valet/Drivers' folder.
+To install, add this file to the '/Users/_your-user-name_/.valet/Drivers' folder.
 
 If you're running an older version of Perch you will need to upgrade for this to work - Perch 2.8 wouldn't work so I assume anything lower will also need to be upgraded.
 
